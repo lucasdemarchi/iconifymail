@@ -6,6 +6,11 @@ Copyright (C) 2010 ProFUSION embedded systems
 """
 import sys, os
 
+usage = "iconifymail domain_image name_address"
+if len(sys.argv) != 3:
+    print(usage)
+    sys.exit(1)
+
 imgstr = sys.argv[1]
 addrstr = sys.argv[2]
 
@@ -16,13 +21,6 @@ COLOR_BACKGROUND= '#ffffff'
 COLOR_TEXT = '#3C465F'
 COLOR_BORDER = '#bebec7'
 IMG_OUTPUT = 'mail_' + addrstr + '.png'
-
-
-usage = "iconifymail domain_image name_address"
-if len(sys.argv) != 3:
-    print(usage)
-    sys.exit(1)
-
 
 import Image, ImageFont, ImageDraw, ImageOps
 
