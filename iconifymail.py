@@ -1,9 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 """
 Copyright (C) 2010 Lucas De Marchi <lucas.de.marchi@gmail.com>
 Copyright (C) 2010 ProFUSION embedded systems
+
+This file is part of iconifymail.
+
+iconifymail is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+iconifymail is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+iconifymail. If not, see http://www.gnu.org/licenses/.
 """
+
 import sys, os
 
 usage = "iconifymail domain_image name_address"
