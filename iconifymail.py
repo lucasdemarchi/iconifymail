@@ -20,7 +20,7 @@ IMG_OUTPUT = 'mail_' + addrstr + '.png'
 
 usage = "iconifymail domain_image name_address"
 if len(sys.argv) != 3:
-    print usage
+    print(usage)
     sys.exit(1)
 
 
